@@ -1,0 +1,12 @@
+.card-margin{
+    padding: 5px;
+}
+
+#TableBody tr:hover{
+    cursor: pointer;
+    background-color: #cccccc;
+}
+
+#TableBody tr:active{
+    background-color: #aaaaaa;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Tv Shows</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="background-color:rgb(200, 200, 255);">Tv Shows</h1>
+        <div class="row">
+            <div class="col-md-7">
+                <table class="table ">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Nombre</th>
+                            <th>Cadena</th>
+                            <th>Temporadas</th>
+                        </tr>
+                    </thead>
+                    <tbody id='TableBody'>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-5 d-flex text-center">
+                <div class="row justify-content-center w-100">
+                    <div id="cardDetails" class="card-padding row justify-content-center">
+                        <img id="detailsImage" class="card-img-top" src="/img/FONDO.jpg" alt="Fondo">
+                        <div id="detailsBody" class="card-body">
+                          <h5 id="detailsTitle" class="card-title">¿Que serie quieres ver?</h5>
+                          <p id="detailsDescription" class="card-text">Elige la serie que deseas ver y disfruta de todo su contenido con un solo click</p>
+                          <a id="detailsLink" href="#">Ver Show</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
